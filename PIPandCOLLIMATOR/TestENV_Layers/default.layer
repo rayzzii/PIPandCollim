@@ -1,0 +1,6 @@
+GenericEntity : "{6B7B7CCC74AACA67}Prefabs/Props/Furniture/Desk_01_short.et" {
+ coords 202.602 0 -441.585
+}
+GameEntity : "{B7CF6BC3296757E5}SCOPES/Prefabs/Optic_VORTEX16_base.et" {
+ coords 201.574 0.906 -441.232
+}

@@ -1,0 +1,8 @@
+GameProject {
+ ID "PIPandCOLLIMATOR"
+ GUID "632CCEF70A5B441B"
+ TITLE "PIPandCOLLIMATOR"
+ Dependencies {
+  "58D0FB3206B6F859"
+ }
+}

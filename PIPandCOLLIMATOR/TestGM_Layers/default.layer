@@ -1,0 +1,17 @@
+$grp GameEntity : "{B7CF6BC3296757E5}SCOPES/Prefabs/Optic_VORTEX16_base.et" {
+ {
+  coords 1735.444 39 2858.783
+ }
+ {
+  coords 1735.432 39.033 2857.994
+ }
+ {
+  coords 1736.595 39 2859.097
+ }
+ {
+  coords 1736.692 39 2858.542
+ }
+ {
+  coords 1735.927 39 2858.638
+ }
+}

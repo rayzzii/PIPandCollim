@@ -1,0 +1,6 @@
+HDREffect : "{B5D201F21F2D379C}Assets/_SharedMaterials/Weapons/Optic_HDR_base.emat" {
+ ReticleMap "{F8D1EE6320CBF0D9}Scopes/RAZORA16GEN2/Models/TEXTURES/DefaultMaterial_Base_color.edds"
+ ReticleScale 1
+ LensFlaresEnabled 0
+ LensFlaresHalfRes 0
+}

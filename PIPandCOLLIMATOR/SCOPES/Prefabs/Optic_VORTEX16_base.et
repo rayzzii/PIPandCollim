@@ -1,0 +1,122 @@
+GameEntity : "{966B4E5523D2F166}Prefabs/Weapons/Attachments/Optics/WeaponOptic_Base.et" {
+ ID "4BA426CBAED42A14"
+ components {
+  InventoryItemComponent "{52627A1F45CD4EB6}" {
+   Attributes SCR_ItemAttributeCollection "{52627A1EBB0698FD}" {
+    ItemDisplayName UIInfo "{5D0CC83435B5584E}" {
+     Name "#RO_RAZOR16_Name"
+     Description "#RO_RAZOR16_Description"
+    }
+    CustomAttributes {
+     WeaponAttachmentAttributes "{5284D858FFF9BE66}" {
+      AttachmentType AttachmentOpticsCarryHandle "{632CCEF549F618E7}" {
+      }
+     }
+    }
+   }
+  }
+  MeshObject "{5D0CC83435B55858}" {
+   Object "{36B6847881E48FAF}SCOPES/Models/Razor16.xob"
+  }
+  SCR_2DPIPSightsComponent "{5D0CC83435B55855}" {
+   Enabled 1
+   SightsPosition PointInfo "{5D0CC83435B55853}" {
+    Offset 0 0.0319 -0.1988
+   }
+   SightsRanges {
+    SightRangeInfo "{62D7397EC46F3460}" {
+     Range 0.046692 100
+    }
+    SightRangeInfo "{62D7397EC4681EDD}" {
+     Range 0.093384 200
+    }
+    SightRangeInfo "{62D7397EC469755E}" {
+     Range 0.142822 300
+    }
+    SightRangeInfo "{62D7397EC46A678B}" {
+     Range 0.20874 400
+    }
+    SightRangeInfo "{62D7397EC46B5951}" {
+     Range 0.285645 500
+    }
+    SightRangeInfo "{62D7397EC4544823}" {
+     Range 0.373535 600
+    }
+   }
+   SightsFOVInfo SCR_SightsZoomFOVInfo "{62908CF74BD419A0}" {
+    m_fBaseZoom 1
+    m_fZoomMax 6
+    m_fStepZoomSize 0.96
+    m_fInterpolationSpeed 12.4
+   }
+   SightsPointFront PointInfo "{62908CF74BD419A3}" {
+    PivotID "sight_front"
+    Offset 0 0.0319 0.168
+   }
+   SightsPointRear PointInfo "{62908CF74BD419A5}" {
+    Offset 0 0.0319 -0.089
+   }
+   CameraRecoilAmount -0.25
+   SightsPriority 1
+   ZeroingGenerator SCR_2DPiPScopeZeroingGenerator "{62D739792E80AE3B}" {
+    m_sReferenceProjectile "{AC26AB660097633D}Prefabs/Weapons/Ammo/Ammo_556x45_Ball_M855.et"
+   }
+   SoundInt 10002
+   m_sReticleTexture "{ABA0DCC52EAC26F5}SCOPES/Models/Textures/Razor16_Reticle.pnj.edds"
+   m_bHasIllumination 1
+   m_ReticleColor 1 0 0 1
+   m_cReticleTextureIllumination 0 0 0 1
+   m_fReticleTextureGlowAlpha 1
+   m_sFilterTexture "{389F7EB72C835512}Shared/Models/Textures/DefaultMaterial_albedo.edds"
+   m_fMagnification 1
+   m_fReticleAngularSize 0.6
+   m_fReticlePortion 0.155
+   m_fReticleBaseZoom 6
+   m_fObjectiveFov 21.74
+   m_eZeroingType EPZ_CAMERA_TURN
+   m_fReticleOffsetInterpSpeed 59.1
+   m_rScopeHDRMatrial "{1A451320A0D30693}SCOPES/Models/Textures/Optic_RAZOR_HDR.emat"
+   m_fADSActivationPercentagePIP 0.2
+   m_fADSDeactivationPercentagePIP 0.8
+   m_fCenterOffsetX 0
+   m_fCenterOffsetY 0
+   m_fScopeRadius 0.01774
+   m_fObjectivePIPEdgeMin 1
+  }
+  SCR_CollimatorSightsComponent "{632CCEF5EB202AC2}" {
+   components {
+    SCR_CollimatorControllerComponent "{632CD6F36D566955}" {
+    }
+   }
+   SightsPosition PointInfo "{632CCEF5E46A0EB3}" {
+    Offset 0 0.0319 -0.1988
+   }
+   SightsPointFront PointInfo "{632CCEF5FDC6E8C6}" {
+    Offset 0 0.0319 0.168
+   }
+   SightsPointRear PointInfo "{632CCEF5FBFE8C7B}" {
+    Offset 0 0.0319 -0.089
+   }
+   CollimatorTopLeft PointInfo "{632CD5B762500A85}" {
+    Offset -0.0171 0.0494 -0.1
+   }
+   CollimatorBottomRight PointInfo "{632CD5B70B6E85A1}" {
+    Offset 0.0171 0.0155 -0.1
+   }
+   CollimatorAspectRatio 0
+   ReticleDefaultAngularSize 1
+   ReticleDefaultTexturePortion 1
+   ReticleColors {
+    BaseCollimatorReticleColor "{632CCEF5B7C36E39}" {
+     ReticleColor 1 0 0 1
+     GlowColor 1 0.015 0.015 1
+    }
+   }
+   ReticleAutoBright 0
+   ReticleAutoClampDayNight 0
+   m_fDaylightBrightness 10
+   m_fNightBrightness 10
+  }
+ }
+ coords 1735.927 39 2858.638
+}

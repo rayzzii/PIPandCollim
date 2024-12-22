@@ -1,0 +1,133 @@
+MetaFileClass {
+ Name "{36B6847881E48FAF}SCOPES/Models/Razor16.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{632CCEF669B580B1}" {
+     SourceMaterial "Body"
+     AssignedMaterial "{63AFFB05CC44819C}SCOPES/Models/Data/Body.emat"
+    }
+    MaterialAssignClass "{632CCEF669B580AF}" {
+     SourceMaterial "Mount"
+     AssignedMaterial "{16B859714875DB8E}SCOPES/Models/Data/Mount.emat"
+    }
+    MaterialAssignClass "{632CCEF669B580A8}" {
+     SourceMaterial "BigScrew"
+     AssignedMaterial "{3EE9FB088CD0E541}SCOPES/Models/Data/BigScrew.emat"
+    }
+    MaterialAssignClass "{632CCEF669B580AA}" {
+     SourceMaterial "InnerScrews"
+     AssignedMaterial "{617CDDE23FB091C7}SCOPES/Models/Data/InnerScrews.emat"
+    }
+    MaterialAssignClass "{632CCEF669B58357}" {
+     SourceMaterial "Glass_1"
+     AssignedMaterial "{CB824E80B57D53BC}SCOPES/Models/Data/Glass_1.emat"
+    }
+    MaterialAssignClass "{632CCEF669B5835D}" {
+     SourceMaterial "Optic_pip"
+     AssignedMaterial "{0091FAECFC169506}Assets/Weapons/Attachments/Optics/ARTII/Data/Optic_ARTII_PIPMaterial.emat"
+    }
+    MaterialAssignClass "{632CCEF669B5835E}" {
+     SourceMaterial "SmallScrews"
+     AssignedMaterial "{3BE09800A9FC9067}SCOPES/Models/Data/SmallScrews.emat"
+    }
+    MaterialAssignClass "{632CCEF669B58358}" {
+     SourceMaterial "collimator"
+     AssignedMaterial "{E378501107FBDCC6}Assets/Weapons/Attachments/Optics/AP2k/Data/Optic_AP2k_collimator.emat"
+    }
+   }
+   MeshParams {
+    MeshParam Base_lp {
+    }
+    MeshParam ElevationTurret2_lp {
+    }
+    MeshParam ElevationTurret3_lp {
+    }
+    MeshParam ElevationTurret_lp {
+    }
+    MeshParam FocusAdjutment2_lp {
+    }
+    MeshParam FocusAdjutment3_lp {
+    }
+    MeshParam FocusAdjutment_lp {
+    }
+    MeshParam Lens {
+    }
+    MeshParam MagnificationAdjustment2_lp {
+    }
+    MeshParam MagnificationAdjustment3_lp {
+    }
+    MeshParam MagnificationAdjustment4_lp {
+    }
+    MeshParam MagnificationAdjustment5_lp {
+    }
+    MeshParam MagnificationAdjustment_lp {
+    }
+    MeshParam ObjectiveLens1_lp {
+    }
+    MeshParam ObjectiveLens2_lp {
+    }
+    MeshParam ObjectiveLens3_lp {
+    }
+    MeshParam "PIP.001" {
+    }
+    MeshParam RAZOR16 {
+    }
+    MeshParam WindageTurret2_lp {
+    }
+    MeshParam WindageTurret3_lp {
+    }
+    MeshParam WindageTurret_lp {
+    }
+    MeshParam base_mount {
+    }
+    MeshParam big_screw2 {
+    }
+    MeshParam collimator {
+    }
+    MeshParam inner_screws {
+    }
+    MeshParam top_screws {
+    }
+   }
+   GeometryParams {
+    GeometryParam UBX_optic_RAZOR16 {
+     SurfaceProperties {
+      "{3B2D2687F56BB4EF}Common/Materials/Game/WeaponParts/weapon_metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_optic_RAZOR16 {
+     SurfaceProperties {
+      "{3B2D2687F56BB4EF}Common/Materials/Game/WeaponParts/weapon_metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{632CCEF669AF0330}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{632CCEF669AF0274}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{632CCEF669AF0211}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{632CCEF669AF0236}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{632CCEF669AF022A}" : "{F62AA8E7B8EA9D26}configs/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{632CCEF669AF02C8}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

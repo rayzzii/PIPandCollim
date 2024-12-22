@@ -1,0 +1,9 @@
+MatPBRBasic {
+ Color 0.18 0.173 0.173 1
+ SpecularIBL 0.897 0.897 0.897 1
+ RoughnessScale 0.6
+ MetalnessScale 1.654
+ CavityFromAO 0
+ BCRMap "{F8D1EE6320CBF0D9}SCOPES/Models/TEXTURES/DefaultMaterial_Base_color.edds"
+ NMOMap "{915AD7A22D164241}SCOPES/Models/TEXTURES/DefaultMaterial_Normal_DirectX.edds"
+}

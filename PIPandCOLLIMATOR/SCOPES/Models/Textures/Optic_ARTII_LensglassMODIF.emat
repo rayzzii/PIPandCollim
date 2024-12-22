@@ -1,0 +1,25 @@
+MatPBRBasicGlass {
+ Color 0.045 0.058 0.057 1
+ CastShadow 0
+ SurfaceProperties "{B0C981E5CF07719D}Common/Materials/Physics/glass.physmat"
+ SpecularMul 0.05
+ AlphaMul 0
+ BlendMode AlphaBlend
+ RoughnessScale 0.613
+ MetalnessScale 0
+ DielectricReflectance 0.03
+ BCRMap "{9CA509FDC176A727}Poliigon_PlasticMoldWorn_7486_BaseColor.edds"
+ OpacityMap "{9CA509FDC176A727}Poliigon_PlasticMoldWorn_7486_BaseColor.edds"
+ GlobalMapsUVTransform MatUVTransform "{56D899604C131388}" {
+  TilingU 0.97
+  TilingV 0.97
+  OffsetU 0.015
+  OffsetV 0.012
+ }
+ DetailNormalPower 0.011
+ DetailNormalMap "{7E9A15F454E44987}Assets/_SharedData/Metal/ST_Scratches_03_N.edds"
+ DetailNormalMapUVTransform MatUVTransform "{56D6B019065617CF}" {
+  TilingU 4
+  TilingV 4
+ }
+}
